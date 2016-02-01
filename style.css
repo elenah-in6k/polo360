@@ -1,0 +1,164 @@
+.break-tab {
+	width:3px;
+	height:60px;
+	vertical-align:middle;
+}
+
+.carousel-bgr {
+	top: 115px;
+	width:100%;
+	height: 335px;
+	background-image: url(images/carousel/carousel-bgr.png);
+	position: absolute;
+}
+
+.carousel{
+	margin-top: 30px;
+    height: 335px;
+}
+.container {
+	width: 970px;
+	position: relative;
+}
+.navbar-header {
+
+}
+.navbar-brand {
+
+	font-size: 13.74px;
+	color: gray;
+
+}
+.brand {
+margin-left: 80px;
+margin-top: -65px;
+}
+
+.brand-title {
+font-family: GillSansMTBold;
+font-weight: bold;
+margin-left: 79px;
+}
+
+.navbar-default .navbar-nav>li>a>div>div{
+font-family: GeorgiaBold;
+font-size: 15px;	
+font-weight: bold;
+}
+
+.navbar-nav>li>a>div>div.tab-title{
+	font-family: TahomaRegular;
+	font-size: 11px;	
+	font-style: regular;
+	color: lightgray;
+	font-weight: lighter;
+	margin: -5px 0px 0px 0px;
+}
+
+.nav>li>a {
+    position: relative;
+    display: block;
+    padding: 33px 0px 0px 1px;
+}
+.navbar-default {
+	height: 110px;
+	background: white;
+	border-color: white;
+}
+
+.tab {
+	margin: -35px 10px 10px 10px; 
+}
+
+.newsfeed{
+
+}
+.feed-header {
+	margin-top: -4px;
+    font-family: GeorgiaBold;
+    font-size: 29px;	
+	font-weight: bold;
+	text-align: center;
+}
+
+ .block {
+	width: 311px;
+}
+
+
+.text-area {
+  font-size: 13px;
+  font-family: "Helvetica";
+  color: rgb(62, 62, 62);
+  line-height: 1.415;
+  text-align: left;
+  margin: 205px 10px 10px 10px;
+
+}
+.infoBlocks .block .title {
+  font-size: 21px;
+  font-family: "Georgia";
+  color: rgb(17, 113, 158);
+  line-height: 1.2;
+  text-align: left;
+}
+
+.subtitle {
+  font-size: 12px;
+  font-family: "Helvetica";
+  color: rgb(173, 173, 173);
+  line-height: 1.2;
+  text-align: left;
+}
+
+.img-frame {
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(225, 225, 225);
+  border-radius: 4px;
+  background-color: rgb(243, 243, 243);
+  position: absolute;
+  margin-top: 5px;
+  width: 301px;
+  height: 194px;
+}
+.shudow-img-news {
+  background-image: url("images/shudow_img_news.png");
+  position: absolute; 
+  width: 301px;
+  height: 201px;
+}
+.img {
+	margin: 7px 0px 0px 7px;
+}
+
+.body {
+	margin: 20px;
+}
+
+.white-btn {
+  font-size: 12px;
+  font-family: "Helvetica";
+  color: rgb(1, 105, 153);
+  line-height: 1.2;
+  text-align: left;
+  margin: -22px 0px 0px 20px;
+}
+.contactBlocks .block .title {
+  font-size: 18px;
+  font-family: "Georgia";
+  color: rgb(68, 68, 68);
+  line-height: 0.778;
+  text-align: left;
+  }
+
+}
+
+@font-face {
+    font-family: GillSansMTBold; /* Гарнитура шрифта */
+    src: url(fonts/ufonts.com_gill-sans-mt-bold.ttf); /* Путь к файлу со шрифтом */
+}
+@font-face {
+    font-family: TahomaRegular; /* Гарнитура шрифта */
+    src: url(fonts/tahoma-regular.ttf); /* Путь к файлу со шрифтом */
+}
