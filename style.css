@@ -83,23 +83,24 @@ font-weight: bold;
 
  .block {
 	width: 311px;
+  margin-bottom: 15px;
 }
 
 
 .text-area {
-  font-size: 13px;
+  font-size: 15px;
   font-family: "Helvetica";
   color: rgb(62, 62, 62);
   line-height: 1.415;
   text-align: left;
-  margin: 205px 10px 10px 10px;
+  margin: 212px 10px 10px 10px;
 
 }
 .infoBlocks .block .title {
   font-size: 21px;
   font-family: "Georgia";
   color: rgb(17, 113, 158);
-  line-height: 1.2;
+  line-height: 1.5;
   text-align: left;
 }
 
@@ -109,6 +110,7 @@ font-weight: bold;
   color: rgb(173, 173, 173);
   line-height: 1.2;
   text-align: left;
+  margin: 4px;
 }
 
 .img-frame {
@@ -134,8 +136,12 @@ font-weight: bold;
 .img-s {
   margin: 0px -5px 0px 0px;
 }
+.break{
+  margin: 20px;
+}
+
 .body {
-	margin: 20px;
+	margin: 25px;
 }
 
 .white-btn {
@@ -146,6 +152,16 @@ font-weight: bold;
   text-align: left;
   margin: -22px 0px 0px 20px;
 }
+
+.blue-btn {
+font-size: 12px;
+  font-family: "Helvetica";
+  color: white;
+  line-height: 1.2;
+  text-align: left;
+  margin: -22px 0px 0px 20px;
+}
+
 .contactBlocks .block .title {
   font-size: 18px;
   font-family: "Georgia";
@@ -155,7 +171,13 @@ font-weight: bold;
   }
 
 }
-
+.footer{
+  bottom: 0px;
+  width:100%;
+  height: 335px;
+  background-image: url(images/footer-bgr.png);
+  position: absolute;
+}
 @font-face {
     font-family: GillSansMTBold; /* Гарнитура шрифта */
     src: url(fonts/ufonts.com_gill-sans-mt-bold.ttf); /* Путь к файлу со шрифтом */
