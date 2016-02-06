@@ -17,7 +17,7 @@
     height: 335px;
 }
 .container {
-	width: 970px;
+	width: 973px;
 	position: relative;
 }
 .navbar-header {
@@ -75,29 +75,37 @@ font-weight: bold;
 }
 .feed-header {
 	margin-top: -4px;
+  margin-bottom: -11px;
     font-family: GeorgiaBold;
     font-size: 29px;	
 	font-weight: bold;
 	text-align: center;
 }
 
- .block {
-	width: 311px;
-  margin-bottom: 15px;
+.block {
+    width: 301px;
+    margin-bottom: 15px;
+    padding: 0px;
 }
 
+.infoBlocks > .middle-b {
+  margin-left: 19px;
+  margin-right: 21px;
+}
 
 .text-area {
-  font-size: 15px;
+   font-size: 13px;
   font-family: "Helvetica";
   color: rgb(62, 62, 62);
-  line-height: 1.415;
+  line-height: 1.462;
   text-align: left;
-  margin: 212px 10px 10px 10px;
+  margin: 223px 0px 10px 7px;
 
 }
-.infoBlocks .block .title {
-  font-size: 21px;
+
+.infoBlocks>.block>.title {
+  margin-left: 4px;
+  font-size: 23px;
   font-family: "Georgia";
   color: rgb(17, 113, 158);
   line-height: 1.5;
@@ -110,7 +118,9 @@ font-weight: bold;
   color: rgb(173, 173, 173);
   line-height: 1.2;
   text-align: left;
-  margin: 4px;
+  margin-top: -4px;
+  margin-left: 4px;
+  margin-bottom: 13px;
 }
 
 .img-frame {
@@ -133,24 +143,28 @@ font-weight: bold;
 .img {
 	margin: 7px 0px 0px 7px;
 }
-.img-s {
-  margin: 0px -5px 0px 0px;
-}
+
 .break{
-  margin: 20px;
+    margin-top: 20px;
+    margin-bottom: 21px;
+    margin-left: 7px;
 }
 
 .body {
 	margin: 25px;
 }
 
+.btn {
+    margin-top: -2px;
+    margin-left: -8px;
+}
 .white-btn {
   font-size: 12px;
   font-family: "Helvetica";
   color: rgb(1, 105, 153);
   line-height: 1.2;
   text-align: left;
-  margin: -22px 0px 0px 20px;
+  margin: -30px 0px 9px 17px;
 }
 
 .blue-btn {
@@ -159,10 +173,13 @@ font-size: 12px;
   color: white;
   line-height: 1.2;
   text-align: left;
-  margin: -22px 0px 0px 20px;
+  margin: -30px 0px 9px 17px;
 }
 
-.contactBlocks .block .title {
+.contactBlocks>.block>.title {
+  font-size: 18px;
+  margin-left: 1px;
+  padding-bottom: 6px;
   font-size: 18px;
   font-family: "Georgia";
   color: rgb(68, 68, 68);
@@ -170,19 +187,119 @@ font-size: 12px;
   text-align: left;
   }
 
+  .contactBlocks> .block> .subtitle {
+  font-size: 12px;
+  font-family: "Helvetica";
+  color: rgb(68, 68, 68);
+  line-height: 1.167;
+  text-align: left;
+  margin-bottom: 9px;
 }
+
+
+.contactBlocks {
+  margin-top: 15px;
+  margin-left: 4px;
+}
+.text-break {
+  font-size: 12px;
+  font-family: "Verdana";
+  color: rgb(211, 211, 211);
+  line-height: 1.167;
+  text-align: left;
+  margin-top: -4px;
+  margin-bottom: 9px;
+}
+
+.social-img-block{
+margin-left: 4px;
+}
+
+.img-s {
+  margin: -3px 0px 0px 0px;
+}
+.n-title {
+  font-size: 18px;
+  font-family: "Gill Sans MT";
+  color: rgb(68, 68, 68);
+  font-weight: bold;
+  line-height: 0.778;
+  text-align: left;
+    margin-top: 37px;
+    margin-left: 2px;
+    margin-bottom: 6px;
+}
+
+.contactBlocks > .middle-b {
+  margin-left: 14px;
+  margin-right: 21px;
+  margin-top: 0;
+  position: relative;
+}
+
+
+
+
+input {
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(207, 207, 207);
+    border-radius: 4px;
+    background-color: rgb(255, 255, 255);
+    width: 296px;
+    height: 33px;
+    margin: 3px 0 7px 3px;
+    padding-left: 14px;
+    font-size: 11px;
+    font-family: "Verdana";
+    color: rgb(212, 212, 212);
+    line-height: 1.4;
+    text-align: left;
+}
+
+.contactBlocks > .middle-b >input {
+    margin-top: 0px;
+    margin-bottom: 16px;
+}
+
+.contactBlocks > .middle-b >.area {
+  height: 136px;
+  vertical-align:top;
+  margin-bottom: 4px;
+}
+
+.contactBlocks > .block > .img-frame {
+    width: 60px;
+    height: 57px;
+    margin-top: 0px;
+}
+.contactBlocks > .block > .img-frame > .img {
+  margin: 4px 5px;
+}
+
+.contactBlocks > .block > .news-block {
+  margin-left: 67px;
+}
+
+
+
 .footer{
   bottom: 0px;
   width:100%;
-  height: 335px;
   background-image: url(images/footer-bgr.png);
-  position: absolute;
+  height: 188px;
+}
+
+/*@font-face {
+    font-family: "Helvetica"; 
+    src: url(fonts/helvetica/helvetica.ttf); 
+}*/
+
+@font-face {
+    font-family: GillSansMTBold; 
+    src: url(fonts/ufonts.com_gill-sans-mt-bold.ttf); 
 }
 @font-face {
-    font-family: GillSansMTBold; /* Гарнитура шрифта */
-    src: url(fonts/ufonts.com_gill-sans-mt-bold.ttf); /* Путь к файлу со шрифтом */
-}
-@font-face {
-    font-family: TahomaRegular; /* Гарнитура шрифта */
-    src: url(fonts/tahoma-regular.ttf); /* Путь к файлу со шрифтом */
+    font-family: TahomaRegular; 
+    src: url(fonts/tahoma-regular.ttf); 
 }
