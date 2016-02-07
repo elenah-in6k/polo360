@@ -37,28 +37,31 @@
     bottom: 0;
     left: 15px;
 }
-
+p {
+    margin: 0px 0 4px 0;
+}
 .jcarousel-pagination a {
     text-decoration: none;
     display: inline-block;
     font-size: 11px;
-    line-height: 14px;
-    min-width: 14px;
-    background: #fff;
-    color: #4E443C;
+    width: 15px;
+    height: 15px;
+    background-image: url(images/carousel/white_dot.png);
+    color: rgba(78, 68, 60, 0);
     border-radius: 14px;
     padding: 3px;
     text-align: center;
-    margin-right: 2px;
-    opacity: .75;
+    margin: 2px 4px 2px 3px;
 }
 
-.jcarousel-pagination a.active {
-    background: #4E443C;
-    color: #fff;
-    opacity: 1;
-    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.75);
-    /*background-image: url(images/carousel/white_dot.png);*/
+.jcarousel-pagination a:focus {
+    text-decoration: none;
+    display: inline-block;
+    font-size: 11px;
+    border-radius: 14px;
+    padding: 3px;
+    text-align: center;
+    background-image: url(images/carousel/blue_dot.png);
 }
 
 .carousel-pag {
