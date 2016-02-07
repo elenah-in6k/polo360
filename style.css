@@ -16,11 +16,17 @@
     margin-top: 30px;
     height: 335px;
     width: 942px;
+
 }
 
 .jcarousel {
     position: relative;
     overflow: hidden;
+    height: 335px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
 }
 
 .jcarousel ul {
@@ -67,7 +73,9 @@ p {
 .carousel-pag {
     background-image: url(images/carousel/white_dot.png);
 }
-
+.carousel-sh  {
+    margin-bottom: 12px;
+}
 .container {
     width: 973px;
     position: relative;
