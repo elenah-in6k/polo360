@@ -32,6 +32,7 @@
 .jcarousel ul {
     width: 20000em;
     position: relative;
+    list-style-type: none;
 }
 
 .jcarousel li {
