@@ -358,6 +358,25 @@ textarea {
     margin-left: 67px;
 }
 
+.blue {
+    background: linear-gradient(to right, #005E93, #007ABD, #0C81BD, #007ABD, #005E93, #005E93);
+    width: 164px;
+    height: 30px;
+    color: white;
+    margin-top: 4px;
+    margin-left: 3px;
+    border: 1px solid #1E90C2;
+    box-shadow: 0px 0px 0px 1px #004680;
+    font-size: 12px;
+    font-family: "Helvetica";
+    text-align: left;
+}
+
+button > img {
+    float: right;
+    margin-top: 4px;
+}
+
 .footer {
     bottom: 0px;
     width: 100%;
