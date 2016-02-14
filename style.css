@@ -5,11 +5,6 @@
     margin-bottom: 0;
 }
 
-
-.newsfeed {
-
-}
-
 .feed-header {
     margin-top: -4px;
     margin-bottom: -11px;
@@ -20,14 +15,13 @@
 }
 
 .block {
-    width: 301px;
     margin-bottom: 15px;
     padding: 0px;
 }
 
 .infoBlocks > .middle-b {
-    margin-left: 19px;
-    margin-right: 21px;
+    /*margin-left: 19px;*/
+    /*margin-right: 21px;*/
 }
 
 .text-area {
@@ -36,7 +30,7 @@
     color: rgb(62, 62, 62);
     line-height: 1.462;
     text-align: left;
-    margin: 223px 0px 14px 7px;
+    margin: 14px 14px 14px 7px;
 }
 
 .infoBlocks > .block > .title {
@@ -65,16 +59,20 @@
     border-color: rgb(225, 225, 225);
     border-radius: 4px;
     background-color: rgb(243, 243, 243);
-    position: absolute;
+    position: relative;
     margin-top: 5px;
-    width: 301px;
-    height: 194px;
+    width: 95%;
+    padding: 2%;
+}
+.info-img{
+    width: 100%;
 }
 
 .shudow-img-news {
     background-image: url("images/shudow_img_news.png");
     position: absolute;
-    width: 301px;
+    margin-top: -6px;
+    width: 95%;
     height: 201px;
 }
 
@@ -128,11 +126,12 @@
 }
 
 .social-img-block {
-    margin-left: 4px;
+    margin-left: 1%;
 }
 
 .img-s {
-    margin: -3px 0px 0px 0px;
+    width: 18%;
+    margin: -1% 0 0 0;
 }
 
 .n-title {
@@ -148,8 +147,8 @@
 }
 
 .contactBlocks > .middle-b {
-    margin-left: 14px;
-    margin-right: 21px;
+    /*margin-left: 14px;*/
+    /*margin-right: 21px;*/
     margin-top: 0;
     position: relative;
 }
@@ -160,14 +159,14 @@ input {
     border-color: rgb(207, 207, 207);
     border-radius: 4px;
     background-color: rgb(255, 255, 255);
-    width: 296px;
+    width: 94%;
     height: 33px;
-    margin: 3px 0 7px 3px;
-    padding-left: 14px;
+    margin: 1% 0 5% 1%;
+    padding-left: 4%;
     font-size: 11px;
     font-family: "Verdana";
     color: rgb(212, 212, 212);
-    line-height: 1.4;
+    line-height:  2.7;
     text-align: left;
 }
 
@@ -177,10 +176,10 @@ textarea {
     border-color: rgb(207, 207, 207);
     border-radius: 4px;
     background-color: rgb(255, 255, 255);
-    width: 296px;
+    width: 94%;
     height: 136px;
-    margin: 3px 0 3px 3px;
-    padding-left: 14px;
+    margin: 1% 0 4% 1%;
+    padding-left: 4%;
     font-size: 11px;
     font-family: "Verdana";
     color: rgb(212, 212, 212);
@@ -195,24 +194,20 @@ textarea {
 }
 
 .contactBlocks > .block > .img-frame {
-    width: 60px;
-    height: 57px;
-    margin-top: 0px;
-}
-
-.contactBlocks > .block > .img-frame > .img {
-    margin: 4px 5px;
+    width: 20%;
 }
 
 .contactBlocks > .block > .news-block {
-    margin-left: 67px;
+    margin-left: 23%;
+    margin-top: -19%;
+    margin-right: 1%;
 }
 
 .btn {
-    width: 164px;
+    width: 55%;
     height: 30px;
     margin-top: 4px;
-    margin-left: 3px;
+    margin-left: 1%;
     font-size: 12px;
     font-family: "Helvetica";
     text-align: left;
@@ -229,8 +224,9 @@ textarea {
     background: linear-gradient(to right, #005E93, #007ABD, #0C81BD, #007ABD, #005E93, #005E93);
     color: white;
     border: 1px solid #1E90C2;
+    font-family: "Georgia";
     box-shadow: 0px 0px 0px 1px #004680;
-   }
+    }
 
 button > img {
     float: right;
