@@ -366,11 +366,27 @@ button > img {
 }
 
 .footer {
+    margin-top: 10px;
     bottom: 0px;
     width: 100%;
     border-top: 10px solid #4C4C4C;
     background-color:  #333333;
     height: 188px;
+    padding-top: 11px;
+    padding-left: 197px;
+    padding-right: 197px;
+    font-size: 11px;
+    font-family: "Helvetica";
+    color: rgb(153, 153, 153);
+}
+
+.footer > .about {
+    line-height: 1.909;
+    text-align: left;
+}
+
+.footer > .copyright {
+    float: right;
 }
 
 /*@font-face {
