@@ -16,7 +16,7 @@
     margin-top: 30px;
     margin-bottom: 20px;
     height: 335px;
-    width: 942px;
+    padding: 0;
 
 }
 
@@ -81,15 +81,15 @@ p {
 .container {
     width: 973px;
     position: relative;
-}
-
-.navbar-header {
-
+    margin-bottom: 0;
 }
 
 .navbar-brand {
     font-size: 13.74px;
     color: gray;
+}
+.container-fluid > .navbar-header {
+    padding-left: 0;
 }
 
 .brand {
@@ -103,13 +103,13 @@ p {
     margin-left: 79px;
 }
 
-.navbar-default .navbar-nav > li > a > div > div {
+.navbar-default .navbar-nav > li > a > div {
     font-family: GeorgiaBold;
     font-size: 15px;
     font-weight: bold;
 }
 
-.navbar-nav > li > a > div > div.tab-title {
+.navbar-nav > li > a > .tab > .tab-title {
     font-family: TahomaRegular;
     font-size: 11px;
     font-style: regular;
@@ -121,7 +121,11 @@ p {
 .nav > li > a {
     position: relative;
     display: block;
-    padding: 33px 0px 0px 1px;
+    padding: 0px 0px 0px 1px;
+}
+
+.nav {
+    padding: 33px 0 0 0;
 }
 
 .navbar-default {
@@ -130,8 +134,15 @@ p {
     border-color: white;
 }
 
+
 .tab {
-    margin: -35px 10px 10px 10px;
+    /*width: auto;*/
+    margin: -35px 0px 0px 10px;
+}
+
+.navbar-nav > .col-md-1{
+    width: auto;
+    padding: 0 10px 0 0;
 }
 
 .newsfeed {
@@ -373,20 +384,20 @@ button > img {
     background-color:  #333333;
     height: 188px;
     padding-top: 11px;
-    padding-left: 197px;
-    padding-right: 197px;
     font-size: 11px;
     font-family: "Helvetica";
     color: rgb(153, 153, 153);
 }
 
-.footer > .about {
+.footer > .container > .about {
     line-height: 1.909;
     text-align: left;
+    margin-left: -10px;
 }
 
-.footer > .copyright {
+.footer > .container > .copyright {
     float: right;
+    margin-left: -10px;
 }
 
 /*@font-face {
