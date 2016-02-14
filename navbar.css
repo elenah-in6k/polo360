@@ -1,0 +1,67 @@
+
+.navbar-brand {
+    font-size: 13.74px;
+    color: gray;
+}
+.container-fluid > .navbar-header {
+    padding-left: 0;
+}
+
+.brand {
+    margin-left: 80px;
+    margin-top: -65px;
+}
+
+.brand-title {
+    font-family: GillSansMTBold;
+    font-weight: bold;
+    margin-left: 79px;
+}
+
+.navbar-default .navbar-nav > li > a > div {
+    font-family: GeorgiaBold;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.navbar-nav > li > a > .tab > .tab-title {
+    font-family: TahomaRegular;
+    font-size: 11px;
+    font-style: regular;
+    color: lightgray;
+    font-weight: lighter;
+    margin: -5px 0px 0px 0px;
+}
+
+.nav > li > a {
+    position: relative;
+    display: block;
+    padding: 0px 0px 0px 1px;
+}
+
+.nav {
+    padding: 33px 0 0 0;
+}
+
+.navbar-default {
+    height: 110px;
+    background: white;
+    border-color: white;
+}
+
+
+.tab {
+    /*width: auto;*/
+    margin: -35px 0px 0px 10px;
+}
+
+.navbar-nav > .col-md-1{
+    width: auto;
+    padding: 0 10px 0 0;
+}
+
+.break-tab {
+    width: 3px;
+    height: 60px;
+    vertical-align: middle;
+}

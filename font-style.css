@@ -1,0 +1,14 @@
+/*@font-face {
+    font-family: "Helvetica";
+    src: url(fonts/helvetica/helvetica.ttf);
+}*/
+
+@font-face {
+    font-family: GillSansMTBold;
+    src: url(fonts/ufonts.com_gill-sans-mt-bold.ttf);
+}
+
+@font-face {
+    font-family: TahomaRegular;
+    src: url(fonts/tahoma-regular.ttf);
+}

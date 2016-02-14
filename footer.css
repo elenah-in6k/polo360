@@ -1,0 +1,23 @@
+.footer {
+    margin-top: 10px;
+    bottom: 0px;
+    width: 100%;
+    border-top: 10px solid #4C4C4C;
+    background-color:  #333333;
+    height: 188px;
+    padding-top: 11px;
+    font-size: 11px;
+    font-family: "Helvetica";
+    color: rgb(153, 153, 153);
+}
+
+.footer > .container > .about {
+    line-height: 1.909;
+    text-align: left;
+    margin-left: -10px;
+}
+
+.footer > .container > .copyright {
+    float: right;
+    margin-left: -10px;
+}
