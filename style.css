@@ -8,7 +8,7 @@
     top: 115px;
     width: 100%;
     height: 335px;
-    background-image: url(images/carousel/carousel-bgr.png);
+    background-color: #333333;
     position: absolute;
 }
 
@@ -368,7 +368,8 @@ button > img {
 .footer {
     bottom: 0px;
     width: 100%;
-    background-image: url(images/footer-bgr.png);
+    border-top: 10px solid #4C4C4C;
+    background-color:  #333333;
     height: 188px;
 }
 
