@@ -2,6 +2,7 @@
 .navbar-brand {
     font-size: 13.74px;
     color: gray;
+    height: inherit;
 }
 .container-fluid > .navbar-header {
     padding-left: 0;
@@ -51,8 +52,13 @@
 
 
 .tab {
-    /*width: auto;*/
+    width: auto;
     margin: -35px 0px 0px 10px;
+}
+
+.navbar-nav > .col-xs-12 {
+    width: 100%;
+    padding: 0 10px 0 0;
 }
 
 .navbar-nav > .col-md-1{

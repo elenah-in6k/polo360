@@ -71,5 +71,6 @@ p {
     background-image: url(images/carousel/white_dot.png);
 }
 .carousel-sh  {
-    margin-bottom: 12px;
+    margin-bottom: 2%;
+    width: 100%;
 }
